@@ -8,6 +8,7 @@ db = SQLAlchemy(App)
 from Routes import *
 from Services import *
 from templates import *
+from static import images, styles
 
 if __name__ == "__main__":
     App.run(port=80)

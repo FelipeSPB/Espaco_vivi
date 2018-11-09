@@ -1,5 +1,50 @@
-<form method="POST">
-    <input name="login">
-    <input name="senha">
-    <input type="submit">
-</form>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/login.css') }}">
+    <style>
+        .login-img {
+            background-image: url("{{ url_for('static', filename='images/navbar.png') }}");
+            background-repeat: no-repeat;
+            width: 500px;
+            height: 300px;
+            top: 50px;
+            background-size: cover;
+            position: relative;
+            left: 50%;
+            margin-left: -270px;
+            padding: 20px;
+            box-shadow: 2px 2px 5px #CDC9C9;
+            text-align: center;
+            align-items: center;
+            align-self: center
+}
+    </style>
+</head>
+
+<body>
+    <div class="login-img">
+        <form method="POST">
+            <div class="title">
+                <h3>Espaço Vivi</h3>
+                </div>
+            <div class="">
+                <div class="login">
+                    <label class="login">Login:</label>
+                    <input class="login-input" name="login" required>
+                </div>
+                <div class="login">
+                    <label class="login">Senha:</label>
+                    <input class="login-input" type="password" name="senha" maxlength="12" required>
+                </div>
+                <div class="wrapper-button">
+                    <!-- <input class="button" type="submit" href="../template/principal.html" value="Acessar"> -->
+                    <button class="button" onclick="window.location.href='/home';">Acessar</button>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway|Roboto');
+
+html {
+    background-color: #E7E3E3;
+    text-align: center;  
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white
+}
+
+.wrapper-principal {
+
+}
+
+.wrapper-cards { 
+    background-color: #E7E3E3;
+    width: 80%;
+    height: 150px;
+    margin: 0px auto;
+    color: #585858;
+    text-align: center;   
+}
+
+.cards {
+    background-color: white;
+    border-radius: 5px;
+    width: 320px;
+    height: 150px;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    box-shadow: 2px 2px 5px #CDC9C9;
+    text-align: center;
+}
+
+.results-title {
+    margin-top: 20px;
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.results-subtitle {
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.register {
+    background-color: #E7E3E3;
+}
+
+.register-title {
+    margin:0;
+    text-align: left;
+}
+.register-intern {
+    background-color: white;
+    border-color: #D4CFCF;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 5px #CDC9C9;
+}
+.menu-item {
+    padding: 0 25px 0 25px;
+    
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    margin:0 auto;
+    /* text-align: center; */
+    width:auto;
+    
+}
+.menu-user{
+    margin: 0px 50px 0 15px;
+}
+.user-avatar{
+    width: 108px;
+    height: 108px; 
+    border-radius: 100px 100px 100px 100px
+}
+.item {
+    padding: 0;
+}
+
+.img-title {
+    width: 100px;
+}
+
+.login-img {
+    background-image: url(./Img/login.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    top: 50px;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    margin-left: -270px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px #CDC9C9;
+    text-align: center;
+    align-items: center;
+    align-self: center
+}
+
+.title {
+    font-size: 30px;
+    /* font-family: 'Nunito', sans-serif; */
+
+
+    color: white;
+    font-weight: lighter;
+}
+
+.login {
+    margin: 30px 22px 30px 0
+}
+
+.login-input {
+    padding: 14px 32px 14px 14px; 
+    border: none;
+    border-radius: 5px;
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper-login {
+    float: right;
+    margin-right: 150px;
+}
+
+.wrapper-button {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #555555;
+    left: 50%;
+    margin-left: 190px;
+}
+
+.button { 
+    border: none;
+    background: transparent;
+    border: 0;
+    margin: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E87296;
+    font-family: 'Raleway', sans-serif;
+}
+.button-rose { 
+    color: white;
+}
+
+.rose { 
+    background-color: #E87296;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.wrapper-user {
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+.wrapper-img {
+    float: left;
+    width: 200px;
+    padding: 30px;
+    margin-left: 60px;
+}
+.img-user { 
+    width: 150px
+}
+
+.login-register {
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+.form {
+    text-align: right;
+}
+.register-input {
+    /* padding: 14px 32px 14px 14px;  */
+    width: 350px;
+    
+    border-radius: 5px;
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+}
